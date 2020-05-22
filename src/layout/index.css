@@ -1,0 +1,26 @@
+.logo {
+  width: 100%;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo img {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+}
+.trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.trigger:hover {
+  color: #1890ff;
+}
+.siteLayoutBackground {
+  background: #fff;
+}
