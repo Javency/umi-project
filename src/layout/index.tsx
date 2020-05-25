@@ -5,9 +5,8 @@ import {Link} from 'umi'
 import {
     MenuUnfoldOutlined,
     MenuFoldOutlined,
-    DesktopOutlined,
     StarOutlined,
-    HomeOutlined
+    FlagOutlined,
     } from '@ant-design/icons';
 
 const { Header, Content, Footer, Sider } = Layout;
@@ -78,6 +77,20 @@ class MainLayout extends Component{
                             </Menu.Item>
                             <Menu.Item key="5">
                                 <Link to="/main/list">列表渲染</Link>
+                            </Menu.Item>
+                            <Menu.Item key="6">
+                                <Link to="/main/form">表单</Link>
+                            </Menu.Item>
+                            <Menu.Item key="7">
+                                <Link to="/main/stateup">状态提升</Link>
+                            </Menu.Item>
+                            <Menu.Item key="8">
+                                <Link to="/main/relationship">组合&继承</Link>
+                            </Menu.Item>
+                        </SubMenu>
+                        <SubMenu key="sub2" icon={<FlagOutlined />} title="高级指引">
+                            <Menu.Item key="9">
+                                <Link to="/guide/context">Context</Link>
                             </Menu.Item>
                         </SubMenu>
                     </Menu>
